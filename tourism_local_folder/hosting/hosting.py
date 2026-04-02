@@ -8,7 +8,7 @@ import time
 # =========================
 # CONFIG
 # =========================
-repo_id = "mayurdotcreate/tourism"
+repo_id = "mayurdotcreate/HF_Space_VisitWithUs"
 repo_type = "space"
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
