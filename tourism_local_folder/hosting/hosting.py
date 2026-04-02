@@ -19,7 +19,7 @@ api = HfApi(token=os.getenv("HF_TOKEN"))
 create_repo(
     repo_id=repo_id,
     repo_type=repo_type,
-    repo_space='docker',
+    space_sdk='docker',
     exist_ok=True
 )
 
